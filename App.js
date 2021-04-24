@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, TextInput } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import * as SQLite from "expo-sqlite";
 import NotesStack from "./NotesStack";
